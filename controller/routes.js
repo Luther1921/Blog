@@ -3,7 +3,7 @@ const { getBlog, addBlog, getBlogByID, updateBlog, deleteBlog } = require('./mai
 
 const router = express.Router()
 
-
+//router
 
 router.get('/', getBlog)
 router.post('/', addBlog)
